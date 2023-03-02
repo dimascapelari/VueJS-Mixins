@@ -1,6 +1,7 @@
 export default {
   data() {
     return {
+      titulo: "Lista Padrão",
       itens: [],
       item: "",
     };
