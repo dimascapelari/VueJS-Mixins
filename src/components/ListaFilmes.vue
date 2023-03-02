@@ -24,6 +24,9 @@ export default {
     };
   },
   mixins: [ListaMixin, RemoverItemListaMixin],
+  created() {
+    console.log("ListaFilmes criado");
+  },
 };
 </script>
 

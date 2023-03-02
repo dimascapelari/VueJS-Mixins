@@ -12,4 +12,7 @@ export default {
       this.item = "";
     },
   },
+  created() {
+    console.log("ListaMixin criado");
+  },
 };

@@ -4,4 +4,7 @@ export default {
       this.itens.pop();
     },
   },
+  created() {
+    console.log("RemoverItemListaMixin criado");
+  },
 };
